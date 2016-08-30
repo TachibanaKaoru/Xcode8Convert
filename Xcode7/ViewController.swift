@@ -24,7 +24,7 @@ class ViewController: UIViewController {
      
         super.viewWillAppear(animated)
         
-        let now = NSDate()
+        let now = Date()
         
         print("Now is \(now).")
         
